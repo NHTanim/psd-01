@@ -1,0 +1,146 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(151, 147, 147);
+}
+.psd-first{
+  width: 27%;
+  margin-left: 35%;
+  margin-top: 10px;
+  /* border-radius: 0px 0px 0px 0px; */
+}
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* wavy part start */
+.wave-one{
+  position: relative;
+  overflow: hidden;
+  background-color: #01A0E1;
+  border-radius: 15px 15px 0px 0px;
+}
+.wave-two{
+  height: 320px;
+}
+.wave{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 200%;
+  background-position: 0 bottom;
+  background-repeat: repeat-x;
+  transform-origin: center bottom;
+}
+@keyframes waves {
+0%{
+transform: translateX(0) translateZ(0) scale(1);
+}
+0%{
+transform: translateX(-25%) translateZ(0) scale(.5);
+}
+0%{
+transform: translateX(-50%) translateZ(0) scale(1);
+}
+}
+/*  */
+/* top-icon */
+.top-icon{
+  margin-left: 32px;
+  padding-top: 15px;
+  display: flex;
+}
+.top-icon img{
+  height: 17px;
+  width: 12px;
+  margin-top: -1px;
+  margin-right: 2px;
+}
+.top-icon .back-btn{
+  color: #fff;
+  text-decoration: none;
+}
+/* top icon end here */
+/*  */
+/* logo start */
+.logo{
+  text-align: center;
+  margin-top: 70px;
+}
+.logo img{
+  height: 77px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.logo h2,h4{
+  color: #fff;
+  line-height: 1px;
+}
+/* logo end here */
+/* wavy part end here */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* no wavy part start */
+.no-wavy{
+  margin-bottom: 75px;
+  background: #fff;
+}
+/* lorem text start */
+.no-wavy .text p{
+  /* margin: 25px; */
+  line-height: 27px;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* lorem text end here */
+
+/* bottom-icon start */
+.bottom-icon{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.bottom-icon img{
+  height: 30px;
+  width: 37px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.bottom-icon .bt-icon .icon1{
+  padding-right: 15px;
+  color: #424242;
+}
+.bottom-icon .bt-icon .icon2{
+  padding-left: 15px;
+  color: #FF4F4F;
+}
+
+.bottom-icon .btm{
+  margin-top: 7px;
+}
+.btm button{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  color: #fff;
+  background-color:#FF4F4F;
+  border: none;
+}
+/* bottom-icon end here*/
+/* no wavy part end here */
